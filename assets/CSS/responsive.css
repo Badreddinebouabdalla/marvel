@@ -1,0 +1,37 @@
+@media (min-width:576px) {
+    header{
+        padding: 0 80px;
+    }
+    header div:last-child{
+        display: none;
+    }
+    header nav{
+        top: 0;
+        left: 30%;
+        height: 100%;
+    }
+    header nav a{
+        max-width: 100px;
+        line-height: 80px;
+
+    }
+    .portfolio-section i{
+        display: inline;
+    }
+    
+}
+@media (min-width:1024px){
+    .experience-section .col{
+        width: 50%;
+    }
+    .contact-section .col{
+        width: 45%;
+    }
+    .home-section{
+        padding: 5% 4%;
+    }
+    .home-section .col{
+        width: 50%;
+    }
+
+}
